@@ -1,0 +1,98 @@
+//Inizializzazione dinamica di un Array
+bool *C = new bool[l];
+
+//Inizializzazione dinamica di un Array di puntatori
+string** R = new string*[n];
+
+poi inizializza dinamicamnete valore per valore
+R[0] = new string("");
+R[1] = new string("");
+R[2] = new string("");
+R[3] = new string("");
+
+//Inizializzazione dinamica di una Matrice
+double**B = new double*[N];
+for(int i = 0; i<N, i++){
+	B[i] = new double[M];
+}
+
+//Inizializzazione dinamica di una Matrice di puntatori 
+int***Q = new int**[n];
+for(int i=0; i<n; i++){
+   Q[i] = new int*[n];
+}
+
+//Inizializzazione dinamica di una Matrice tridimensionale(con inizializzazione con numeri casuali)
+srand(time(NULL));
+int*** arr3D = new int**[n];
+for(int i =0; i<n; i++){
+   arr3D[i] = new int*[n];
+   for(int j =0; j<n; j++){
+      arr3D[i][j] = new int[n];
+      for(int k = 0; k<n;k++){
+         arr3D[i][j][k] = rand()%10;
+      }
+   }
+}
+
+//Inizializzazione dinamica di una Matrice tridimensionale di puntatori (con inizializzazione con numeri casuali)
+srand(time(NULL));
+int**** arr3D = new int***[n];
+for(int i =0; i<n; i++){
+   arr3D[i] = new int**[n];
+   for(int j =0; j<n; j++){
+      arr3D[i][j] = new int*[n];
+      for(int k = 0; k<n;k++){
+         arr3D[i][j][k] = new int(rand()%10);
+      }
+   }
+}
+
+
+//Generazione casuale numero compreso tra 0 e 1 (numeri con la virgola compresi)
+srand(time(0));
+double s = (double)rand()/RAND_MAX;  (se voglio un numero compreso tra 0 e x -----> double s = rand()/(double)RAND_MAX*x; )
+
+//Generazione casuale numero compreso tra a e b (numeri con la virgola compresi)
+int a = 2;
+int b = 4;
+srand(time(0));
+double s = rand()/(double)RAND_MAX * (b - a) + a;
+
+//Generazione casuale di numeri interi compresi tra a e b
+srand(time(0));
+int a = 2;
+int b = 11;
+cout << rand() % (b - a + 1) + a;
+
+//Come vedere se una stringa è vuota
+if(B[k][j]){
+
+}
+
+//Controllo sottostringa
+#include<string>
+if(A[j][k].find(*B[k][j]) != string::npos){
+
+}
+
+//Elimina y caratteri a partire da quello di indice x
+#include<string>
+string s1 = "ddabcd";
+cout << s1.erase(x, y) << endl; 
+
+//Concatena un singolo carattere
+#include<string>
+s1.push_back('c'); //concatena un singolo carattere
+
+//concatena s2 a s1. Equivalente a s1+=s2
+#include<string>
+s1.append(s2); 
+
+//Come invertire le minuscole in maiuscole in un array di char
+while(s[i] !='\0'){
+   if((s[i]>='a') && (s[i]<='z')){
+      s[i] = s[i] - 'a' + 'A';
+   }
+   i++;
+}
