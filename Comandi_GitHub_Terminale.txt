@@ -3,5 +3,6 @@ Comandi GitHub Terminale
 - git add "nomefile"	(Fa solo il file selezionato)
 - git add .	(Vado ad aggiungere tutto il contenuto della repository)
 - git commit -m "COMMENTO"
+- git push (Vado a pushare le modifiche nella repository)
 - git pull	(Refreshare la repository)
 
