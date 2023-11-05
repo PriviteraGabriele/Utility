@@ -1,0 +1,25 @@
+//comandi
+ctrl + p = apertura file veloce
+ctrl + maiusc + p = palette comandi
+ctrs + tab = cambia file aperto
+ctrl + b = apri chiudi sidebar
+ctrl + maiusc + e = cursore sui file sidebar
+ctrl + maiusc + m = mostra errori e avvisi
+maiusc + alt + f = formattazione automatica
+alt + freccia su/giu = sposta riga
+alt + maiusc + freccia su/giu = duplica riga
+ctrl + spazio = suggerimenti
+ctrl + ò = apri terminale
+ctrl + maiusc + ò = nuovo terminale
+ctrl + maiusc + 1 = selezione multi cursore
+ctrl + d = selezione uno ad uno
+ctrl + u = togli selezione uno ad uno
+ctrl + ù = commenti
+ctrl + maiusc + invio = spazio sopra
+ctrl + 1 = seleziona riga
+maiusc + su/giù = aumenta selezione
+ctrl + click = vai alla definizione
+ctrl + f = cerca nel file
+ctrl + maiusc + f = cerca nel progetto
+ctrl + +/- = zoom
+ctrl + s = salva
